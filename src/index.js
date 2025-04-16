@@ -15,6 +15,7 @@ import { DB_NAME } from "./constants.js"; // to give db name in mongoose.connect
 // require('dotenv').config({path : '/.env'})  // import or require dotenv as to available all env. variables as soon as index.js file loads
 import dotenv from 'dotenv'
 import connectDB from "./db/index.js";
+import { app } from './app.js';
 
 dotenv.config({
     path : '/.env'
