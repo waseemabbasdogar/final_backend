@@ -9,7 +9,7 @@ const uploadFile = async (localPathFile)=> {
             resource_type : "auto"
         })
         // file has been uploaded successfully
-        // console.log("file has uploaded", response.url);
+        console.log("file has uploaded", response.url);
         fs.unlinkSync(localPathFile);
         return response;
 
